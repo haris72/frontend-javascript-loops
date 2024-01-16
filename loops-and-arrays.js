@@ -81,7 +81,7 @@ console.log(squares);
 for (let i = 0; i < squares.length; i++) {
 
 
-    squares[i] = ("Het volume van " + squares[i] + " is " + squares[i] * squares[i] * squares[i]);
+    squares[i] = ("Het volume van " + squares[i] + " is " + squares[i] ** 3);
     //(Math.pow(squares[i],3)
 
 }
